@@ -21,7 +21,7 @@ export default function Home() {
       <section className='flex flex-col justify-center items-center bg-white w-full max-w-4xl md:flex md:flex-row'>
         <div className='relative h-56 md:h-96 overflow-hidden w-full'>
           <Image 
-            src='/drawers.jpg' 
+            src='./drawers.jpg' 
             alt='Furniture' 
             className='object-cover w-full h-full rounded-2xl' 
             fill 
@@ -38,7 +38,7 @@ export default function Home() {
               <div className='bg-customGrey p-8 md:p-12 flex flex-row justify-between items-center w-full h-3 rounded-full'>
                 <button onClick={handleisOpened} className='flex items-center justify-center'>
                 <Image 
-                    src='/icon-share.svg'
+                    src='./icon-share.svg'
                     alt='Share' 
                     width={50} 
                     height={50}
@@ -46,14 +46,14 @@ export default function Home() {
                   />
                 <span class='tracking-widest text-3xl text-white font-bold mr-3'>BACK</span>
                 </button>
-                <Image src='/icon-facebook.svg' alt='Facebook' width={50} height={50} className='mr-3 cursor-pointer' />
-                <Image src='/icon-twitter.svg' alt='Twitter' width={50} height={50} className='mr-3 cursor-pointer' />
-                <Image src='/icon-pinterest.svg' alt='Pinterest' width={50} height={50} className='cursor-pointer' />
+                <Image src='./icon-facebook.svg' alt='Facebook' width={50} height={50} className='mr-3 cursor-pointer' />
+                <Image src='./icon-twitter.svg' alt='Twitter' width={50} height={50} className='mr-3 cursor-pointer' />
+                <Image src='./icon-pinterest.svg' alt='Pinterest' width={50} height={50} className='cursor-pointer' />
               </div>
             ) : (
               <div className='flex flex-row md:flex md:flex-row'>
                 <Image 
-                  src='/avatar-michelle.jpg' 
+                  src='./avatar-michelle.jpg' 
                   alt='Michelle Appleton' 
                   className='rounded-full mr-5 md:mr-5' 
                   width={50} 
