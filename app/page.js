@@ -38,7 +38,7 @@ export default function Home() {
               <div className='bg-customGrey p-8 md:p-12 flex flex-row justify-between items-center w-full h-3 rounded-full'>
                 <button onClick={handleisOpened} className='flex items-center justify-center'>
                 <Image 
-                    src='./icon-share.svg'
+                    src='/icon-share.svg'
                     alt='Share' 
                     width={50} 
                     height={50}
