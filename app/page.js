@@ -31,7 +31,7 @@ export default function Home() {
         <div className='p-8'>
           <div className='flex flex-col justify-center items-center'>
             <h1 className='text-2xl font-semibold'>Shift the overall look and feel by adding these wonderful touches to furniture in your home</h1>
-            <h2 className='text-lg font-normal mt-3'>Ever been in a room and felt like something was missing? Perhaps it felt slightly bare and uninviting. I've got some simple tips to help you make any room feel complete.</h2>
+            <h2 className='text-lg font-normal mt-3'>Ever been in a room and felt like something was missing? Perhaps it felt slightly bare and uninviting. I&apos;ve got some simple tips to help you make any room feel complete.</h2>
           </div>
           <div className='relative flex flex-row justify-between mt-7 md:flex-row'>
             {isOpened ? (
